@@ -13,6 +13,8 @@
 		17D4BCA1275E8B480004D21A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BC8F275E8B450004D21A /* ContentView.swift */; };
 		17D4BCA2275E8B480004D21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4BC90275E8B480004D21A /* Assets.xcassets */; };
 		17D4BCA3275E8B480004D21A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17D4BC90275E8B480004D21A /* Assets.xcassets */; };
+		17D4BCB4275E8D8F0004D21A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BCB3275E8D8F0004D21A /* LoginView.swift */; };
+		17D4BCB6275E8DA00004D21A /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BCB5275E8DA00004D21A /* RegistrationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		17D4BC95275E8B480004D21A /* SwiftUIChatTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChatTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D4BC9B275E8B480004D21A /* SwiftUIChatTutorial.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIChatTutorial.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17D4BC9D275E8B480004D21A /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		17D4BCB3275E8D8F0004D21A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		17D4BCB5275E8DA00004D21A /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,11 @@
 		17D4BC8D275E8B450004D21A /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				17D4BCB1275E8B940004D21A /* Model */,
+				17D4BCB0275E8B920004D21A /* View */,
+				17D4BCAF275E8B900004D21A /* ViewModel */,
+				17D4BCAE275E8B8E0004D21A /* API */,
+				17D4BCAC275E8B7E0004D21A /* Utils */,
 				17D4BC8E275E8B450004D21A /* SwiftUIChatTutorialApp.swift */,
 				17D4BC8F275E8B450004D21A /* ContentView.swift */,
 				17D4BC90275E8B480004D21A /* Assets.xcassets */,
@@ -76,6 +85,51 @@
 				17D4BC9D275E8B480004D21A /* macOS.entitlements */,
 			);
 			path = macOS;
+			sourceTree = "<group>";
+		};
+		17D4BCAC275E8B7E0004D21A /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		17D4BCAE275E8B8E0004D21A /* API */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		17D4BCAF275E8B900004D21A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		17D4BCB0275E8B920004D21A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				17D4BCB2275E8C0F0004D21A /* Authentication */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		17D4BCB1275E8B940004D21A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		17D4BCB2275E8C0F0004D21A /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				17D4BCB3275E8D8F0004D21A /* LoginView.swift */,
+				17D4BCB5275E8DA00004D21A /* RegistrationView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,8 +230,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17D4BCB4275E8D8F0004D21A /* LoginView.swift in Sources */,
 				17D4BCA0275E8B480004D21A /* ContentView.swift in Sources */,
 				17D4BC9E275E8B480004D21A /* SwiftUIChatTutorialApp.swift in Sources */,
+				17D4BCB6275E8DA00004D21A /* RegistrationView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
