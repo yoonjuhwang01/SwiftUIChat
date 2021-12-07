@@ -28,17 +28,16 @@ struct LoginView: View {
                         .foregroundColor(.purple)
                     
                     VStack(spacing:20){
-                        VStack(spacing: 16){
-                            HStack{
-                                Image(systemName:"envelope")
-                                TextField("Email", text: $email)
-                            }
-                            
-                            Divider()
-                                .background(Color(.darkGray))
-                        }
-                        SecureField("Password", text: $password)
-
+                        CustomTextField(imageName: "envelope",
+                                        placeholderText: "Email",
+                                        isSecureField: false,
+                                        text: $email)
+                        
+                        CustomTextField(imageName: "lock",
+                                        placeholderText: "Password",
+                                        isSecureField: true,
+                                        text: $password)
+                        
                     }
                     .padding([.top, .horizontal, .bottom], 32)
                     
@@ -98,3 +97,4 @@ struct LoginView_Previews: PreviewProvider {
         LoginView()
     }
 }
+
