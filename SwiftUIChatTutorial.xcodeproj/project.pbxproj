@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		17798F9B2776183500BEC473 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17798F9A2776183500BEC473 /* MainTabView.swift */; };
 		17D4BC9E275E8B480004D21A /* SwiftUIChatTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BC8E275E8B450004D21A /* SwiftUIChatTutorialApp.swift */; };
 		17D4BC9F275E8B480004D21A /* SwiftUIChatTutorialApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BC8E275E8B450004D21A /* SwiftUIChatTutorialApp.swift */; };
 		17D4BCA0275E8B480004D21A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17D4BC8F275E8B450004D21A /* ContentView.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		17798F9A2776183500BEC473 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
 		17D4BC8E275E8B450004D21A /* SwiftUIChatTutorialApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIChatTutorialApp.swift; sourceTree = "<group>"; };
 		17D4BC8F275E8B450004D21A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17D4BC90275E8B480004D21A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		17798F992776180300BEC473 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				17798F9A2776183500BEC473 /* MainTabView.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
 		17D4BC88275E8B450004D21A = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 		17D4BCB0275E8B920004D21A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				17798F992776180300BEC473 /* Main */,
 				17D4BCB2275E8C0F0004D21A /* Authentication */,
 			);
 			path = View;
@@ -238,6 +249,7 @@
 				17D4BC9E275E8B480004D21A /* SwiftUIChatTutorialApp.swift in Sources */,
 				17D4BCB6275E8DA00004D21A /* RegistrationView.swift in Sources */,
 				17D4BCB8275FCD910004D21A /* CustomTextField.swift in Sources */,
+				17798F9B2776183500BEC473 /* MainTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

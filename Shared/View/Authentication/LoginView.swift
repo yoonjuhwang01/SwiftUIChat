@@ -27,7 +27,7 @@ struct LoginView: View {
                         .bold()
                         .foregroundColor(.purple)
                     
-                    VStack(spacing:20){
+                    VStack(spacing:40){
                         CustomTextField(imageName: "envelope",
                                         placeholderText: "Email",
                                         isSecureField: false,
